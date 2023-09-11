@@ -580,7 +580,6 @@
     width: 15%;
     height: auto;
     padding-top: 15px;
-    
   }
   
   .julie{
@@ -625,6 +624,19 @@
   
   /* Cart
   -------------------------------------------------------------*/
+  .breadcrumbs-cart{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 10px;
+  }
+  .breadcrumbs-cart a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 5px;
+  }
+  
   .your-cart{
     padding: 15px;
     border-bottom: 1px solid;
@@ -647,8 +659,8 @@
   float: left;
   width: 50%;
   background-color: rgba(230, 235, 239, 1);
-  font-weight: bolder;
   padding-left: 10px;
+  font-size: 13px;
   }
   
   .total-box-2{
@@ -658,6 +670,7 @@
   background-color: rgba(230, 235, 239, 1);
   font-weight:lighter;
   padding-right: 10px;
+  font-size: 13px;
   }
   
   .subtotal{
@@ -666,6 +679,7 @@
   
   .subtotal-3 {
     border-top: 1px solid ;
+    font-weight: bolder;
   }
   
   .password{
@@ -711,9 +725,8 @@
   
   .forgot-password:hover {
     font-style: italic;
-    color: red; 
-    
-  }
+    color: rgba(180, 58, 36, 1)
+    };
   
   .sign-in,
   .member,
@@ -724,8 +737,8 @@
   }
   
   .delivery-address{
-    padding: 40px 10px;
     border-bottom: 1px solid;
+    padding-bottom: 30px;
   }
   
   .delivery-options{
@@ -745,15 +758,18 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
+
   .express-checkout img{
     padding-top: 15px;
     padding-bottom: 20px;
+    width: 88px;
   }
   .sign-in h2,
   .member h2,
   .delivery-address h2,
   .delivery-options h2,
   .express-options h2 {
+    padding-top: 40px;
     padding-bottom: 5px;
     text-align: left;
   }
@@ -832,6 +848,20 @@
     }
     .absolute-total{
       font-size: 20px;
+    }
+    .breadcrumbs-cart{
+      display: flex;
+      padding-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .total-box-1,
+    .total-box-2{
+      font-size: 20px;
+    }
+
+    .breadcrumbs-cart{
+      font-size: 14px;
     }
   }
   
