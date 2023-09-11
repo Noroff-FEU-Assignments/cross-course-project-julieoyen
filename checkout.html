@@ -14,43 +14,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
 </head>
   <body>
-  <header>
-    <a href="index.html">
-      <img src="images/RainyDays_logo_white.png" alt="RainyDays logo" class="header-logo" />
-   </a>
-    <section>
-      <a href="cart.html">
-        <img src="images/Shopping cart.svg" alt="Shopping Cart">
-      </a>
-    </section>
-    <section>
-    <input type="checkbox" id="menu-checkbox">
-    <label for="menu-checkbox"><img src="images/Hamburger menu mobile.png" alt="hamburger navigation bar"></label>
+    <header>
+      <a href="index.html"><img src="images/RainyDays_logo_white.png" alt="RainyDays logo" class="header-logo"></a>
+      <label class="hamburger-label" for="hamburger-menu"><i class="fas fa fa-bars" style="color:white;"></i></label>
+      <a href="cart.html"><label class="cart-label" for="cart-label"><i class="fa-solid fa-cart-shopping"
+            style="color:white;"></i></label></a>
+      <input type="checkbox" id="hamburger-menu">
       <nav>
-        <a href="index.html" class="nav">Home</a>
-        <a href="products.html" class="nav">Products</a>
-        <a href="about.html" class="nav">About</a>
-        <a href="contact.html" class="nav">Contact</a>
-        <a href="cart.html" class="nav">Cart</a>
+        <ul class="nav-content">
+          <li><a href="index.html" class="nav">Home</a></li>
+          <li><a href="products.html" class="nav">Products</a></li>
+          <li><a href="about.html" class="nav">About</a></li>
+          <li><a href="contact.html" class="nav">Contact</a></li>
+          <li><a href="cart.html" class="nav">Cart</a></li>
+        </ul>
       </nav>
-    </section>
-   </header>
+    </header>
  <main>
   <section class="checkout">
     <h1>Congratulations</h1>
     <h2>Your order was a success!</h2>
     <p>Thank you for your order!</p>
     <p>Your order confirmation has been sent to your e-mail.</p>
-    <p>Order # 113028840</p>
+    <p class="order-no">Order # 113028840</p>
     <br>
     <img src="images/RainyDays_Logo.png" class="rainydayslogo-blue" alt="Rainy days logo">
   </section>
-  <br>
-  <br>
+  <div class="continue">
   <a href="products.html">
     <button class="continue-shopping">CONTINUE SHOPPING</button>
   </a>
-<br><br><br>
+</div>
  <footer>
   <img src="images/RainyDays_Logo.png" class="footer-logo" alt="RainyDays logo">
   <section class="icons">
