@@ -802,23 +802,26 @@
     color: rgba(180, 58, 36, 1)
     };
   
-  .sign-in,
-  .member,
-  .delivery-address,
-  .delivery-options,
-  .express-checkout{
-    padding: 40px 10px;
+  .member{
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+
+  .sign-in{
+    padding-left: 10px;
     padding-bottom: 30px;
   }
   
   .delivery-address{
     border-bottom: 1px solid;
     padding-bottom: 30px;
+    padding-left: 10px;
   }
   
   .delivery-options{
     border-bottom: 1px solid;
     padding-bottom: 40px;
+    padding-left: 10px;
   }
   
    .express-delivery{
