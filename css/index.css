@@ -335,8 +335,7 @@
   }
   
   .newsletter-container img {
-    max-width: 193px;
-    max-height: auto;
+  
   }
   
   .we-aspire{
@@ -376,9 +375,9 @@
       font-size: 20px;
     }
 
-    .newsletter-text img {
-      max-width: 694px;
-    }
+   .newsletter-container img{
+    max-width: 694px;
+   }
   
     .we-aspire {
       padding: 150px;
@@ -526,17 +525,8 @@
     align-items: center;
     text-align: center;
   }
-  .button-size{
-    width: 50px;
-    font-weight: 900;
-    font-size: 15px;
-    background-color: rgba(180, 58, 36, 1);
-    text-align: center;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    border-style: double; 
-
-  }
   
+ 
   .price{
     font-size: xx-large;
     font-weight: bold; 
@@ -563,6 +553,34 @@
   
   .activity{
     padding-top: 20px;
+  }
+
+  @media (min-width:720px) {
+    .balkai-size button{
+      width: 80px;
+      height: 40px;
+      font-weight: 900;
+      font-size: 25px;
+      background-color: white;
+      font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    }
+
+    .description p {
+      text-align: justify;
+      text-align: center;
+      font-size: 18px;
+     }
+
+     .bullet-list{
+      padding-left: 500px;
+      font-size: 20px;
+     }
+
+     .description h2{
+      font-size: 25px;
+      padding-bottom: 15px;
+     }
+  
   }
   
   
@@ -661,20 +679,28 @@
   
   @media (min-width: 720px){
   .about-us{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
     font-size: 20px;
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
     text-align: justify;
+    
   }
   
   .about-us-text{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
     font-size: 25px;
     font-weight: bolder;
   }
   
+  .about-item-1{
+    padding-bottom: 10px;
+  }
   .about-logo{
     padding-bottom: 20px;
   }
@@ -966,13 +992,15 @@
     color: #000;
   
   }
-  
+    
+
   .button-size:hover {
     background-color: rgba(180, 58, 36, 1);
     color: white;
-    border-style: none;
+    border-style: solid;
     border-color: #000;
     cursor: pointer;
+    border-width: 2px;
   }
   
   .button-size:focus {
@@ -980,6 +1008,7 @@
     color: white;
     border-style: solid;
     border-color: #000;
+    border-width: 2px;
   }
   
   .product-image {
@@ -1052,12 +1081,17 @@
    .checkout {
     margin-left: 200px;
     margin-right: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 100px;
    }
 
-
-
+   .continue button{
+    font-size: 20px;
+    padding-bottom: 30px;
+ 
+   }
   }
   
   
