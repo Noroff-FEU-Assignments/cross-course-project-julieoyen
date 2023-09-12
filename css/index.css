@@ -157,20 +157,7 @@
   }
   
   
-  @media (min-width: 720px) {
-    .banner_logo {
-      height: 175px;
-    }
-  
-    .banner_button {
-      margin-top: 40px;
-      font-size: 20px;
-    }
-  
-    .go-shopping {
-      padding: 15px 60px;
-    }
-  }
+
   
   /* Header info
   --------------------------------------------------------------*/
@@ -248,6 +235,21 @@
     right: 0;
     left: 0;
   }
+
+  @media (min-width: 720px) {
+    .banner-logo {
+      height: 175px;
+    }
+
+    .banner-button {
+      margin-top: 40px;
+      font-size: 20px;
+    }
+  
+    .go-shopping {
+      padding: 15px 60px;
+    }
+  }
   
   .products{
     padding-bottom: 20px;
@@ -298,6 +300,8 @@
     justify-content: center;
     
   }
+
+
   
   /* Newsletter section
   -----------------------------------------------------------*/
@@ -399,10 +403,10 @@
     
   }
   .container-forest{
-  background-image: url("/images/Header\ Pic.png");
+    background-image: url("/images/Header\ Pic.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 25vw;
+    height: 23vw;
     position: relative;
     text-align: center;
   }
@@ -473,11 +477,14 @@
     }
   
     .top-left-text {
-      font-size: 35px;
+      font-size: 46px;
+      top: 100px;
+      left: 70px;
+
     } 
   }
   
-  /* Balkai Rain Jacket 
+  /* Single_product
   ------------------------------------------------------------*/
   
   .balkai-info-page {
@@ -486,7 +493,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .balkai-info-page h1{
     padding-top: 20px;
     padding-bottom: 50px;
@@ -511,7 +518,7 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 442px;;
+    max-width: 442px;
   }
   
   .balkai-size{
@@ -527,8 +534,8 @@
     text-align: center;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     border-style: double; 
+
   }
-  
   
   .price{
     font-size: xx-large;
@@ -606,7 +613,6 @@
 .message {
   height: 100px;
 }
-
 
 
 @media (min-width: 700px) {
@@ -705,7 +711,15 @@
   .balkai-cart-info{
     padding: 10px;
   }
-  
+  .details-cart{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
   .absolute-total{
   display: flex;
   flex-direction: row;
@@ -858,12 +872,17 @@
       margin-left: 200px;
       margin-right: 200px;
     }
+    .your-cart{
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
     .your-cart,
     .balkai-cart-info,
     .sign-in,
     .member,
     .delivery-address,
-    .delivery-options{
+    .delivery-options,
+    .express-checkout{
       padding-left: 50px;
       padding-right: 50px;
     }
@@ -873,15 +892,19 @@
     .sign-in h2,
     .member h2,
     .delivery-address h2,
-    .delivery-options h2{
+    .delivery-options h2,
+    .express-checkout h2{
       font-size: 30px;
+      text-align: left;
     }
+    
     .balkai-cart-info p,
     .absolute-total p,
     .sign-in p,
     .member p,
     .delivery-address p,
-    .delivery-options p{
+    .delivery-options p,
+    .express-checkout p{
       font-size: 18px;  
     }
   
@@ -967,14 +990,10 @@
     border-color: #000;
   }
   
-  
   .balkai-cart-info {
     text-align: left;
   }
   
-  .balkai-info-page {
-    text-align: left;
-  }
   
   .description {
     background-color: rgba(230, 235, 239, 1);
