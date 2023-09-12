@@ -607,12 +607,12 @@
 }
 
 @media (min-width: 700px) {
-  .contact_info {
+  .contact-info {
     padding: 100px;
   }
 
-  .contact_cell h3,
-  .header_form {
+  .contact-cell h3,
+  .header-form {
     font-size: 20px;
   }
 }
