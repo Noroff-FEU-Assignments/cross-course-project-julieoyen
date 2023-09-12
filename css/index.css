@@ -958,13 +958,14 @@
     width: 22x;
     height: 22px;
     border-color: #000;
+    border-style: solid;
   
   }
   
   .button-size:hover {
     background-color: rgba(180, 58, 36, 1);
     color: white;
-    border-style: solid;
+    border-style: none;
     border-color: #000;
     cursor: pointer;
   }
