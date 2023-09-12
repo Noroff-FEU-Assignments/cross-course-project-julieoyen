@@ -591,6 +591,7 @@
 .contact-form a {
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
 .contact-cell h3 {
@@ -605,6 +606,8 @@
 .message {
   height: 100px;
 }
+
+
 
 @media (min-width: 700px) {
   .contact-info {
