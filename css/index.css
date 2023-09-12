@@ -74,7 +74,7 @@
     padding-left: 5px;
   }
   
-  @media (min-width: 720px) {
+  @media (min-width: 1000px) {
     header {
       display: flex;
       justify-content: space-between;
@@ -222,7 +222,7 @@
   
   /* Home page/Index 
   -----------------------------------------------------------*/
-  .banner_section {
+  .banner-section {
     background-image: url("/images/mountainsrightsize.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -232,15 +232,15 @@
     margin-bottom: 20px;
   }
   
-  .banner_logo {
+  .banner-logo {
     height: 75px;
   }
   
-  .banner_button {
+  .banner-button {
     margin-top: 10px;
   }
   
-  .banner_content {
+  .banner-content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -302,7 +302,7 @@
   /* Newsletter section
   -----------------------------------------------------------*/
   
-  .newsletter_container {
+  .newsletter-container {
     display: flex;
     text-align: center;
     margin-top: 40px;
@@ -310,18 +310,18 @@
     background: #0a3641;
   }
   
-  .newsletter_text {
+  .newsletter-text {
     font-size: 12px;
     margin-left: auto;
     margin-right: auto;
   }
   
-  .newsletter_text h2 {
+  .newsletter-text h2 {
     font-size: 14px;
     font-weight: bolder;
   }
-  .newsletter_text,
-  .newsletter_text h2 {
+  .newsletter-text,
+  .newsletter-text h2 {
     color: white;
     display: flex;
     flex-direction: column;
@@ -330,8 +330,9 @@
     padding: 20px;
   }
   
-  .newsletter_container img {
-    max-width: 375px;
+  .newsletter-container img {
+    max-width: 193px;
+    max-height: auto;
   }
   
   .we-aspire{
@@ -350,7 +351,7 @@
     font-size: 12px;
     font-weight: 500;
   }
-  
+
   @media (min-width: 720px) {
     .index-products {
       display: flex;
@@ -361,14 +362,18 @@
       height: 240px;
     }
   
-    .newsletter_text p {
+    .newsletter-text p {
       font-size: 18px;
       margin-top: 18px;
       padding: 10px;
     }
   
-    .newsletter_text h2 {
+    .newsletter-text h2 {
       font-size: 20px;
+    }
+
+    .newsletter-text img {
+      max-width: 694px;
     }
   
     .we-aspire {
@@ -382,6 +387,7 @@
     .we-aspire p {
       font-size: 20px;
     }
+
   }
   
   
@@ -392,7 +398,7 @@
     margin: 0%;
     
   }
-  .banner_products{
+  .container-forest{
   background-image: url("/images/Header\ Pic.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -455,6 +461,7 @@
     right: 16px;
     color: white;
   }
+
   @media (min-width:720px) {
     .slogan-1,
     .slogan-2 {
@@ -467,10 +474,7 @@
   
     .top-left-text {
       font-size: 35px;
-    }
-  
-  
-  
+    } 
   }
   
   /* Balkai Rain Jacket 
@@ -558,7 +562,60 @@
   /* Contact 
   ------------------------------------------------------------*/
   
-  
+  .contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  margin-top: 40px;
+  background-color: rgba(230, 235, 239, 1);
+  border-radius: 30px;
+  padding: 50px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.contact-form a {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-cell h3 {
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.message {
+  height: 100px;
+}
+
+@media (min-width: 700px) {
+  .contact_info {
+    padding: 100px;
+  }
+
+  .contact_cell h3,
+  .header_form {
+    font-size: 20px;
+  }
+}
   
   /* About
   ------------------------------------------------------------*/
@@ -952,6 +1009,7 @@
 
   .continue-shopping:hover{
     cursor: pointer;
+    font-style: italic;
   }
 
   .checkout h2{
