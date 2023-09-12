@@ -831,6 +831,7 @@
   
   .express-checkout{
     display: flex;
+    padding-left: 10px;
     flex-direction: column;
     border-bottom: 1px solid;
    
@@ -962,6 +963,7 @@
     height: 22px;
     border-color: #000;
     border-style: solid;
+    color: #000;
   
   }
   
