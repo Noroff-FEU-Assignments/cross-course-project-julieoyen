@@ -666,6 +666,7 @@
     max-width: 80%;
     height: auto;
     float: right;
+    padding-top: 20px;
   }
   
   .about-us{
@@ -703,6 +704,7 @@
   .julie{
     width: 646px;
     text-align: right;
+    padding-top: 20px;
     border-radius: 50px;
   }
   
@@ -1096,16 +1098,13 @@
   
   /* Footer
   -------------------------------------------------------*/
-  
-  .footer {
-    background-color: rgba(245, 245, 245, 1);
-   
-  }
 
   .somefooter{
      display: flex;
-    flex-direction: column;
+     flex-direction: column;
+     background-color: rgba(245, 245, 245, 1);
   }
+
 
   .somefooter-logo{
     text-align: center;
@@ -1118,9 +1117,17 @@
 
   .some-icons{
     text-align: end;
+    margin-right: 5px;
+    padding-bottom: 5px;
   }
 
   .fa-brands{
     cursor: pointer;
   }
   
+  @media (min-weight:750px){
+    .some-icons{
+      margin-right: 600px;
+    }
+    
+  }
