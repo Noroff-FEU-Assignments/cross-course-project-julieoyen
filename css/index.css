@@ -1097,23 +1097,31 @@
   /* Footer
   -------------------------------------------------------*/
   
+  .footer {
+    background-color: rgba(245, 245, 245, 1);
+   
+  }
+
+  .somefooter{
+     display: flex;
+    flex-direction: column;
+  }
+
+  .somefooter-logo{
+    text-align: center;
+  }
   .footer-logo {
     width: 66px;
     height: 36px;
-    padding-top: 15px;
+    padding-top: 15px; 
+  }
+
+  .some-icons{
+    text-align: end;
   }
   
-  footer {
-    background-color: rgba(245, 245, 245, 1);
-    text-align: center;
-  }
-  
-  .icons {
-    text-align-last: right;
-    padding-right: 25px;
-  }
-  
-  .some:hover {
+  .some-icons:hover {
     cursor: pointer;
   }
+
   
