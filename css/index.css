@@ -333,7 +333,7 @@
     align-items: center;
     padding: 20px;
   }
-  
+ 
   .we-aspire{
     text-align: center;
     padding: 100px;
@@ -351,7 +351,14 @@
     font-weight: 500;
   }
 
-  @media (min-width: 720px) {
+  @media (max-width: 720px){}
+
+  .newsletter-container img{
+    max-width: 193px;
+   }
+
+
+  @media (min-width: 721px) {
     .index-products {
       display: flex;
       justify-content: space-around;
@@ -632,12 +639,15 @@
 @media (min-width: 700px) {
   .contact-info {
     padding: 100px;
+    font-size: 17px;
   }
 
   .contact-cell h3,
   .header-form {
     font-size: 20px;
   }
+
+
 }
   
   /* About
