@@ -1119,9 +1119,8 @@
   .some-icons{
     text-align: end;
   }
-  
-  .some-icons:hover {
+
+  .fa-brands{
     cursor: pointer;
   }
-
   
