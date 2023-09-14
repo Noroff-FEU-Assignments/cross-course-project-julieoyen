@@ -766,6 +766,9 @@ h4 {
   padding-left: 5px;
 }
 
+.hidden{
+  display: none;
+}
 .your-cart {
   padding: 15px;
   border-bottom: 1px solid;
@@ -776,6 +779,13 @@ h4 {
 
 .balkai-cart-info {
   padding: 10px;
+}
+
+.balkai-cart-info h2{
+  text-align: left;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .details-cart {
@@ -872,18 +882,21 @@ h4 {
   color: rgba(180, 58, 36, 1)
 }
 
-;
-
 .member {
   padding-left: 10px;
   padding-bottom: 30px;
 }
 
 .sign-in {
-  padding-left: 10px;
-  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
+.sign-in input{
+  display: flex;
+  margin: 4px 2px;
+  width: 200px;
+}
 .delivery-address {
   border-bottom: 1px solid;
   padding-bottom: 30px;
