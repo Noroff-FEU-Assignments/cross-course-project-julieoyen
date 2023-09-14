@@ -62,8 +62,12 @@ nav,
   cursor: pointer;
 }
 
+.hidden{
+  display: none;
+}
 .cart-label{
   text-decoration: none;
+ 
 }
 .breadcrumbs {
   display: flex;
