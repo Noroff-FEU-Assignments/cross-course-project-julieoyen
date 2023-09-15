@@ -430,6 +430,8 @@ h4 {
 .top-left-text {
   position: absolute;
   color: white;
+  background-color: rgba(70, 82, 71, 1);
+  border-radius: 5px;
   top: 40px;
   left: 50px;
   font-size: 15px;
