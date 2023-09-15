@@ -13,15 +13,18 @@
 <body>
   <header>
     <a href="index.html"><img src="images/RainyDays_logo_white.png" alt="RainyDays logo" class="header-logo"></a>
-  <label aria-label="Hamburger-label"class="hamburger-label" for="hamburger-menu"><i class="fas fa fa-bars"></i></label>
-
-  
+    <label class="hamburger-label" for="hamburger-menu"><i aria-hidden="true" title="Menu" class="fas fa fa-bars"></i></label>
+    
     <a aria-label="Go to cart" href="cart.html" class="cart-label"><i aria-hidden="true" class="fa-solid fa-cart-shopping" style="color: #feffff;"></i></a>
     <input type="checkbox" button aria-expanded="true" id="hamburger-menu">
 
-      <button aria-expanded="true" class="hidden">
-        <svg aria-hidden="true" focusable="false"></svg>Menu<label aria-label="Hamburger-label" class="hamburger-label" for="hamburger-menu"><i class="fas fa fa-bars"></i></label>
-      </button>
+    <ul class="sr-only">
+      <li><a href="index.html" class="nav">Home</a></li>
+      <li><a href="products.html" class="nav">Products</a></li>
+      <li><a href="about.html" class="nav">About</a></li>
+      <li><a href="contact.html" class="nav">Contact</a></li>
+      <li><a href="cart.html" class="nav">Cart</a></li>
+    </ul>
 
     <nav role="navigation" aria-label="Main menu">
       <ul class="nav-content">
@@ -49,7 +52,9 @@
       </div>
     </div>
     <h1 class="newarrivals">New Arrivals</h1>
-
+    <a aria-label="Skip to main navigation" href="#hamburger-menu">
+      <i aria-hidden="true" class="fas fa-bars"></i>
+    </a>
     <section class="index-products">
 
 
