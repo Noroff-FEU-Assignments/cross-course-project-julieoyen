@@ -5,7 +5,7 @@
 
 header {
   background-color: #0a3641;
-  font-family: "Montserrat";
+  font-family: "Montserrat", Arial, Verdana, Geneva, Tahoma, sans-serif;;
 }
 
 .header-logo {
@@ -134,7 +134,7 @@ nav,
 }
 
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -669,10 +669,16 @@ h4 {
 .contact-form input {
   padding: 10px;
   border: 2px solid black;
+  font-size:"Montserrat", Arial, Verdana, Geneva, Tahoma, sans-serif; 
+  color: black;
 }
 
-.message {
-  height: 100px;
+.contact-form textarea {
+  padding: 10px;
+  border: 2px solid black;
+  height: 200px;
+  font-family: "Montserrat", Arial, Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
 }
 
 
