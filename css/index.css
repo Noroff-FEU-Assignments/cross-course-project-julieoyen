@@ -671,6 +671,7 @@ h4 {
   border: 2px solid black;
   font-size:"Montserrat", Arial, Verdana, Geneva, Tahoma, sans-serif; 
   color: black;
+  font-size: 14px;
 }
 
 .contact-form textarea {
@@ -679,6 +680,7 @@ h4 {
   height: 200px;
   font-family: "Montserrat", Arial, Verdana, Geneva, Tahoma, sans-serif;
   color: black;
+  font-size: 14px;
 }
 
 
