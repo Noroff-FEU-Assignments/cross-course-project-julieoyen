@@ -48,7 +48,9 @@ nav,
   position: absolute;
   right: 0;
 }
-
+.sr-only{
+  display: none;
+}
 .cart-label,
 .hamburger-label {
   float: right;
