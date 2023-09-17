@@ -504,7 +504,7 @@ h4 {
   font-weight: bolder;
 }
 
-@media (min-width:720px) {
+@media (min-width:1000px) {
 
   .slogan-1,
   .slogan-2 {
