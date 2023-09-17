@@ -15,17 +15,22 @@
   <body>
     <header>
       <a href="index.html"><img src="images/RainyDays_logo_white.png" alt="RainyDays logo" class="header-logo"></a>
-      <label class="hamburger-label" for="hamburger-menu"><i aria-hidden="true" title="Menu" class="fas fa fa-bars"></i></label>
-      <a aria-label="Go to cart" href="cart.html" class="cart-label"><i aria-hidden="true" class="fa-solid fa-cart-shopping" style="color: #feffff;"></i></a>
-
-      <ul class="sr-only">
-        <li><a href="index.html" class="nav">Home</a></li>
-        <li><a href="products.html" class="nav">Products</a></li>
-        <li><a href="about.html" class="nav">About</a></li>
-        <li><a href="contact.html" class="nav">Contact</a></li>
-        <li><a href="cart.html" class="nav">Cart</a></li>
-      </ul>
-
+    
+      <div role="navigation" class="sr-only" aria-label="Main menu">
+        <ul>
+          <li><a href="index.html" class="nav">Home</a></li>
+          <li><a href="products.html" class="nav">Products</a></li>
+          <li><a href="about.html" class="nav">About</a></li>
+          <li><a href="contact.html" class="nav">Contact</a></li>
+          <li><a href="cart.html" class="nav">Cart</a></li>
+        </ul>
+      </div>
+    
+      <label class="hamburger-label" for="hamburger-menu"><i aria-hidden="true" title="Menu"
+          class="fas fa fa-bars"></i></label>
+      <a aria-label="Go to cart" href="cart.html" class="cart-label"><i aria-hidden="true" class="fa-solid fa-cart-shopping"
+          style="color: #feffff;"></i></a>
+    
       <input type="checkbox" id="hamburger-menu">
       <nav aria-label="Main menu">
         <ul class="nav-content">
