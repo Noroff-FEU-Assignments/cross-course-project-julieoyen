@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Rainy Days | Home</title>
+<meta name="description" content="Home page of RainyDays, a company that specializes in raincoats and jackets">
+<link href="/css/index.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/94f8d6093f.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img src="images/RainyDays_logo_white.png" alt="RainyDays logo" class="header-logo"></a>
+  
+    <div role="navigation" class="sr-only" aria-label="Main menu">
+      <ul>
+        <li><a href="index.html" class="nav">Home</a></li>
+        <li><a href="products.html" class="nav">Products</a></li>
+        <li><a href="about.html" class="nav">About</a></li>
+        <li><a href="contact.html" class="nav">Contact</a></li>
+        <li><a href="cart.html" class="nav">Cart</a></li>
+      </ul>
+    </div>
+  
+    <label class="hamburger-label" for="hamburger-menu"><i aria-hidden="true" title="Menu"
+        class="fas fa fa-bars"></i></label>
+    <a aria-label="Go to cart" href="cart.html" class="cart-label"><i aria-hidden="true" class="fa-solid fa-cart-shopping"
+        style="color: #feffff;"></i></a>
+  
+    <input type="checkbox" id="hamburger-menu">
+    <nav aria-label="Main menu">
+      <ul class="nav-content">
+        <li><a href="index.html" class="nav">Home</a></li>
+        <li><a href="products.html" class="nav">Products</a></li>
+        <li><a href="about.html" class="nav">About</a></li>
+        <li><a href="contact.html" class="nav">Contact</a></li>
+        <li><a href="cart.html" class="nav">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <div class="banner-section">
+      <div class="banner-content">
+
+        <div class="banner-image">
+          <img class="banner-logo" src="images/RainyDays_logo_white.png" alt="Rainy days logo">
+        </div>
+
+        <div class="banner-button">
+          <a href="products.html" class="go-shopping">Go shopping</a>
+        </div>
+
+      </div>
+    </div>
+    <h1 class="newarrivals">New Arrivals</h1>
+
+    <section class="index-products">
+
+
+      <div class="index-card">
+        <img src="images/moraine.png" alt="Black rainjacket" class="product-image">
+        <div class="card-text">
+          <h2>Morraine</h2>
+          <h3>by</h3>
+          <h3>RainyDays</h3>
+          <button onclick="window.location.href = 'single_product.html'" class="red-button">View Product</button>
+        </div>
+      </div>
+
+      <div class="index-card">
+        <img src="images/Melissani-Long.png" alt="Green, parka rainjacket" class="product-image">
+        <div class="card-text">
+          <h2>Melissani Long</h2>
+          <h3>by</h3>
+          <h3>RainyDays</h3>
+          <button onclick="window.location.href = 'single_product.html'" class="red-button">View Product</button>
+        </div>
+      </div>
+
+      <div class="index-card">
+        <img src="images/Kawaguchiko.png" alt="White, parka rainjacket" class="product-image">
+        <div class="card-text">
+          <h2>Kawaguchiko</h2>
+          <h3>by</h3>
+          <h3>RainyDays</h3>
+          <button onclick="window.location.href = 'single_product.html'" class="red-button">View Product</button>
+        </div>
+      </div>
+    </section>
+    <div class="newsletter-container">
+
+      <div class="newsletter-text">
+        <h2>Sign up for a 10% discount</h2>
+        <p>Sign up to our newsletter and receive a 10% discount for your first purchase.</p>
+        <p>Stay up to date on the latest
+          and
+          greatest news. </p>
+      </div>
+      <img src="images/pexels-photo-1635086.png" alt="Boy jumping on snowboard">
+    </div>
+    <div class="we-aspire">
+      <h2>We aspire to be the best</h2>
+      <p>Our raincoats and jackets are meant to keep you dry without compromising comfort and activity level. </p>
+    </div>
+  </main>
+  <footer>
+    <div class="somefooter">
+      <div class="somefooter-logo">
+        <img src="images/RainyDays_Logo.png" class="footer-logo" alt="RainyDays logo">
+      </div>
+
+      <div class="some-icons">
+        <p>Follow us</p>
+        <a aria-label="Go our Instagram page" href="https://www.instagram.com/"><i aria-hidden="true"
+            class="fa-brands fa-instagram fa-2x" style="color: rgba(10, 54, 65, 1);"></i></a>
+        <a aria-label="Go our Facebook page" href="https://www.facebook.com/"><i aria-hidden="true"
+            class="fa-brands fa-facebook fa-2x" style="color: rgba(10, 54, 65, 1);"></i></a>
+        <a aria-label="Go our Youtube page" href="https://www.youtube.com/"><i aria-hidden="true"
+            class="fa-brands fa-youtube fa-2x" style="color: rgba(10, 54, 65, 1);"></i></a>
+      </div>
+      <h3>All rights reserved</h3>
+    </div>
+  </footer>
+</body>
+
+</html>
