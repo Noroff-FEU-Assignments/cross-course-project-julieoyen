@@ -390,20 +390,6 @@ h4 {
     height: 240px;
   }
 
-
-
-  .we-aspire {
-    padding: 150px;
-  }
-
-  .we-aspire h2 {
-    font-size: 30px;
-  }
-
-  .we-aspire p {
-    font-size: 20px;
-  }
-
 }
 
 @media (min-width:1000px){
@@ -420,6 +406,19 @@ h4 {
   .newsletter-container img {
     max-width: 694px;
   }
+
+  .we-aspire {
+    padding: 150px;
+  }
+
+  .we-aspire h2 {
+    font-size: 30px;
+  }
+
+  .we-aspire p {
+    font-size: 20px;
+  }
+
 }
 /* Products
   ------------------------------------------------------------*/
