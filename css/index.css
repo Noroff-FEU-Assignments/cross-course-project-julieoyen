@@ -84,8 +84,8 @@ nav,
 }
 
 .sr-only{
-  background-color: white;
-  color: black;
+  background-color: #0a3641;
+  color: white;
 }
 
 @media (min-width: 1000px) {
