@@ -380,7 +380,7 @@ h4 {
 }
 
 
-@media (min-width: 721px) {
+@media (min-width: 1000px) {
   .index-products {
     display: flex;
     justify-content: space-around;
